@@ -1,14 +1,6 @@
-QBCore = nil
-
 local bluePlayerReady = false
 local redPlayerReady = false
 local fight = {}
-
-TriggerEvent('QBCore:GetObject',
-    function(obj)
-        QBCore = obj
-    end
-)
 
 RegisterServerEvent('qb-streetfight:join')
 AddEventHandler('qb-streetfight:join', function(betAmount, side)
