@@ -15,3 +15,8 @@ client_script {
     'client.lua',
     'config.lua'
 }
+
+shared_scripts { 
+	'@qb-core/import.lua',
+	'config.lua'
+}
